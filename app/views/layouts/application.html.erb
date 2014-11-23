@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Edtoro</title>
+  <title>Many Faces of Ed</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="icon" href="https://s3.amazonaws.com/uploads.hipchat.com/108061/1279189/H2ASVT5sryN6QB0/edtoro_thumb.jpeg" type="image/png" sizes="16x16">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+
 <body>
 
+<div class="container">
 <%= yield %>
+</div>
 
 </body>
 </html>
