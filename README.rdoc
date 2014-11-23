@@ -3,3 +3,9 @@
 * Ruby version 2.1.3
 
 This app is designed to explore the many emotions of our overlord Ed Toro. Ed is known for his many expressions, enjoy this vast collection of faces.
+
+##### Need to do #####
+
+- Change color scheme
+- Get jQuery animations working
+- Change image - full face
