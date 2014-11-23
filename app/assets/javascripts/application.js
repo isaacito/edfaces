@@ -16,10 +16,11 @@
 //= require_tree .
 
 $(function() {
-  $('.btn-default').on('click', function(){
-    console.log('clicked');
-    $('img').flip({
-      direction:'rl'
-    });
+    $('img').on('click', function(){
+      console.log('clicked');
+      $('img').flip({
+        direction: 'rl'
+      });
   });
 });
+
