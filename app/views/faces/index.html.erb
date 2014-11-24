@@ -4,7 +4,7 @@
 
 <div class="text-center">
   <div="emotion">
-    <%=  render 'emotion'  %>
+  <%= @ed.emotions.sample %>
 </div>
 
 <div class="text-center">
@@ -19,7 +19,7 @@
 $('document').ready(function(){
     $('#edbutton').click(function(){
         console.log('ed is clicked');
-        $('#ed').addClass('flipOutY');
+       
         $('#ed').addClass('zoomIn');
 
     });
