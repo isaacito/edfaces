@@ -13,3 +13,17 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+$('document').ready(function(){
+    $('#edbutton').click(function(){
+        console.log('ed is clicked');
+        $('#mood').addClass('flipInX'); 
+          $('#ed').addClass('zoomIn');
+    });
+    $('img').on('mouseover', function(){
+      $('img').attr('src', 'assets/edtoro789.png');
+    });
+      $('img').on('mouseleave', function(){
+        $('img').attr('src', 'assets/edtoro123.png');
+    });
+});
