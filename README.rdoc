@@ -9,3 +9,5 @@ This app is designed to explore the many emotions of our overlord Ed Toro. Ed is
 - Change color scheme
 - Get jQuery animations working
 - Change image - full face
+
+https://cryptic-mesa-5467.herokuapp.com/
